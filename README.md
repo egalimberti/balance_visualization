@@ -1,14 +1,12 @@
-# Visualizing structural balance in signed networks
+# Webapp
 
-## Folders and files
-* datasets: includes the original Congress dataset
-* src/main/java: Java back-end
-* src/main/webapp/scripts/graph-drawing.js: JavaScript code for drawing the visualization
+Il progetto è stato creato utilizzando [Angular CLI](https://github.com/angular/angular-cli) versione 9.0.2.
 
-## Execution
-In the following we provide basic instructions to execute our code:
-* download and install [Java](https://www.java.com) (used version: 8)
-* download and install [NetBeans](https://netbeans.org) (used version: 8.2)
-* import the whole project into your NetBeans workspace
-* install [GlassFish](https://netbeans.org/community/releases/82/install.html) server in NetBeans
-* run the project from NetBeans selecting any browser (tested browsers: Chrome and Safari)
+# Requisiti
+
+Per poter eseguire in locale il progetto è necessario aver installato [Node.js](https://nodejs.org/it/).
+Al primo avvio è opportuno installare le dipendenze del progetto con il comando ``npm i`` dalla directory principale del progetto.
+
+# Eseguire il progetto su server locale
+
+Per eseguire il progetto su server locale lanciare il comando ``npm start``.

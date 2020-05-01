@@ -1,0 +1,6 @@
+{
+    "/Controller": {
+        "target": "http://localhost:8080/balance_visualization_mav-1.0-SNAPSHOT",
+        "secure": false
+    }
+}
