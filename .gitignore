@@ -24,3 +24,11 @@ dist/
 nbdist/
 .nb-gradle/
 nb-configuration.xml
+
+# vscode
+.vscode
+
+# angular
+node_modules
+dist
+target
