@@ -1,6 +1,6 @@
-# Webapp
+ # Webapp
 
-Il progetto è stato creato utilizzando [Angular CLI](https://github.com/angular/angular-cli) versione 9.0.2.
+Il progetto è stato creato utilizzando [Angular CLI](https://github.com/angular/angular-cli) versione 9.
 
 # Requisiti
 
@@ -9,4 +9,4 @@ Al primo avvio è opportuno installare le dipendenze del progetto con il comando
 
 # Eseguire il progetto su server locale
 
-Per eseguire il progetto su server locale lanciare il comando ``npm start``.
+Per eseguire il progetto su server locale lanciare il comando ``npm start`` e navigare all'indirizzo ``http://localhost:4000/``.

@@ -1,14 +1,11 @@
 {
-  "extends": "./tsconfig.json",
+  "extends": "./tsconfig.public.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": []
+    "types": [],
+    "experimentalDecorators": true /* Enables experimental support for ES7 decorators. */,
+    "emitDecoratorMetadata": true /* Enables experimental support for emitting type metadata for decorators. */
   },
-  "files": [
-    "src/main.ts",
-    "src/polyfills.ts"
-  ],
-  "include": [
-    "src/**/*.d.ts"
-  ]
+  "files": ["src/public/main.ts", "src/public/polyfills.ts"],
+  "include": ["src/public/**/*.d.ts"]
 }
